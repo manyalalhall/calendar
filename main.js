@@ -2,9 +2,9 @@
 
 function createWindow() {
   const win = new BrowserWindow({
-    width: 300, /*to change window size */
-    height: 300,
-    resizable: false,
+    width: 381, /*to change window size */
+    height: 295,
+    resizable: true,
     maximizable: false,
     fullscreenable: false,
     frame: false, 
