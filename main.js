@@ -2,13 +2,13 @@
 
 function createWindow() {
   const win = new BrowserWindow({
-    width: 250, /*to change window size */
-    height: 250,
+    width: 300, /*to change window size */
+    height: 300,
     resizable: false,
     maximizable: false,
     fullscreenable: false,
     frame: false, 
-    transparent: false,
+    transparent: true,
     webPreferences: {
       contextIsolation: true
     }

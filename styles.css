@@ -3,16 +3,16 @@
 }
 
 
-body {
+html, body {
   margin: 0;
-  width: 100vw;
-  height: 100vh;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
 
   /*background: rgba(230, 167, 105, 0.559);*/
   user-select: none;
   -webkit-app-region: drag;
-  border-radius: 20px;
-  margin:0;
   background: transparent;
   
 }
@@ -23,8 +23,9 @@ body {
     justify-content: center;
     align-items: center;
     gap: 0.5rem;
-    width:13.375rem;
-    padding:1rem 1.0625rem;
+    width:100%;
+    height:100%;
+    padding:1rem;
 
     background-image: url("assets/background.jpeg");
     background-size: cover;
@@ -65,14 +66,14 @@ select {
 
 #calendar{
     display: flex;
-    width: 11.25rem;
-    height: 10.0625rem;
+    width: 100%;
+    height: 100%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 1rem;
 
-    background-image: url("assets/frame.jpeg");
+    background-image: url("assets/frame.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
