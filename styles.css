@@ -1,0 +1,134 @@
+ * {
+  box-sizing: border-box;
+}
+
+
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+
+  /*background: rgba(230, 167, 105, 0.559);*/
+  user-select: none;
+  -webkit-app-region: drag;
+  border-radius: 20px;
+  margin:0;
+  background: transparent;
+  
+}
+
+.app {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    width:13.375rem;
+    padding:1rem 1.0625rem;
+
+    background-image: url("assets/background.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.8;
+  
+}
+
+button,
+input,
+textarea,
+select {
+  -webkit-app-region: no-drag;
+  cursor: pointer;
+}
+
+.title{
+
+    display: flex;
+    padding: 0.25rem 0.625rem;
+    justify-content: center;
+    gap:0.625rem;
+
+    border-radius: 6.25rem;
+    border:1px solid #53220188;
+    background: rgba(131, 89, 58, 0.74);
+
+
+    color: var(--white , #FFF);
+    font-family: "Pixelify Sans";
+    font-size: 1rem ;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+#calendar{
+    display: flex;
+    width: 11.25rem;
+    height: 10.0625rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+    background-image: url("assets/frame.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    }
+
+#day{
+    color:#FFF;
+    text-align: center;
+    -webkit-text-stroke-width:1.5px;
+    -webkit-text-stroke-color: var(--mid-brown, #53220188);
+    font-family:Pixeboy;
+    font-size: 7.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.25rem;
+    letter-spacing: 0.45rem;
+
+    display: flex;
+    width: 11.25rem;
+    height: 4.4375rem;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+
+#month {
+
+    color: #FFF;
+    text-align: center;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: #53220188;
+    font-family: Pixeboy;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.25rem; 
+    letter-spacing: 0.3rem;
+
+    width: 8.125rem;
+
+}
+
+#year {
+
+    color: #FFF;
+    text-align: center;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: #53220188;
+    font-family: Pixeboy;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.25rem; 
+    letter-spacing: 0.3rem;
+
+    width: 8.125rem;
+
+}
