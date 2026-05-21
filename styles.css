@@ -78,16 +78,18 @@ select {
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center;
+    border-radius: 12px;
+    overflow: hidden;
     }
 
 
 #day{
-    color:#FFF;
+    color:#e0cbb6;
     text-align: center;
     -webkit-text-stroke-width:1.5px;
     -webkit-text-stroke-color: var(--mid-brown, #53220188);
-    font-family:Pixeboy;
-    font-size: 6.0rem;
+    font-family:"Gabriola";
+    font-size: 7.0rem;
     font-style: normal;
     font-weight: 400;
     line-height: 1;
@@ -115,7 +117,7 @@ select {
     text-align: center;
     -webkit-text-stroke-width: 1.5px;
     -webkit-text-stroke-color: #53220188;
-    font-family: Pixeboy;
+    font-family: "Ink Free";
     font-size: 2rem;
     font-style: normal;
     font-weight: 400;
@@ -132,7 +134,7 @@ select {
     text-align: center;
     -webkit-text-stroke-width: 1.5px;
     -webkit-text-stroke-color: #53220188;
-    font-family: Pixeboy;
+    font-family: "Ink Free";
     font-size: 2rem;
     font-style: normal;
     font-weight: 400;

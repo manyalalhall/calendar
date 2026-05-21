@@ -6,7 +6,7 @@ function updateCalendar(){
     const month=monthNames[now.getMonth()];
 
     document.getElementById('day').textContent=day;
-    document.getElementById('month').textContent=month;
+    document.getElementById('month').textContent=month + ",";
     document.getElementById('year').textContent=year;
 
 }
